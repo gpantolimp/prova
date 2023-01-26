@@ -5,13 +5,11 @@ import Content from "./components/Content"
 
 function App() {
   return (
-    <div className="App">
-      <div class="container mx-auto">
-        <Header />
-        <Navbar />
-        <Content />
-        <Footer />
-      </div>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <Navbar />
+      <Content />
+      <Footer />
     </div>
   )
 }

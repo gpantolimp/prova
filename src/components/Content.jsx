@@ -3,8 +3,8 @@ import MyLogo from "./../assets/img/logo-light.png"
 
 function Content() {
   return (
-    <div class="grid place-items-center">
-        <img src={MyLogo} alt="Express Delivery Group" />
+    <div className="text-center">
+        Content
     </div>
   )
 }

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className="text-center bg-red-500">
+        Header
+    </div>
   )
 }
 
