@@ -1,11 +1,16 @@
-import MyLogo from "./assets/img/logo-light.png"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import Content from "./components/Content"
+
 function App() {
   return (
     <div className="App">
       <div class="container mx-auto">
-        <div class="grid h-screen place-items-center">
-          <img src={MyLogo} alt="Express Delivery Group" />
-        </div>
+        <Header />
+        <Navbar />
+        <Content />
+        <Footer />
       </div>
     </div>
   )
