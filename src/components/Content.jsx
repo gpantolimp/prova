@@ -1,10 +1,10 @@
 import React from 'react'
-import MyLogo from "./../assets/img/logo-light.png"
+import Test from "./Test"
 
 function Content() {
   return (
     <div className="text-center">
-        Content
+        <Test />
     </div>
   )
 }
