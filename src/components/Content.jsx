@@ -1,10 +1,12 @@
 import React from 'react'
-import Test from "./Test"
+
 
 function Content() {
   return (
-    <div className="text-center">
-        <Test />
+    <div className=''>
+        <div className='max-w-[1600px] mx-auto py-2 px-4'>
+          CONTENT
+        </div>
     </div>
   )
 }
