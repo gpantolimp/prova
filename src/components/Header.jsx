@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 function Header() {
   return (
-    <div className=' bg-neutral-200 border-b border-white'>
+    <div className=' bg-stone-700 border-b border-white'>
         <Navbar />
     </div>
   )

@@ -7,3 +7,12 @@
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
+.my-nav-x {
+    @apply p-3 font-semibold hover:bg-sky-800 rounded-md ease-linear duration-200;
+}
+
+.my-nav-y {
+    @apply p-4 border-b border-stone-700 hover:bg-stone-900 ease-linear duration-200;
+}
+

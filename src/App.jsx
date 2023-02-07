@@ -16,11 +16,29 @@ export default function App() {
       path: "/",
       element: <Root />,
       errorElement: <ErrorPage />,
-    },
+      children: [
+        {
+          path: "/pages/dashboard",
+          element: <Dashboard />,
+        },
+        {
+          path: "/pages/tracking",
+          element: <Tracking />,
+        },
+        {
+          path: "/pages/tables",
+          element: <Tables />,
+        },
+        {
+          path: "/pages/docs",
+          element: <Docs />,
+        },
+      ]
+    },          
   ]);
     
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-l from-zinc-50 to-zinc-100">
+    <div className="min-h-screen flex flex-col from-zinc-50 to-zinc-100 bg-edg-simbolo bg-no-repeat bg-center">
       <RouterProvider router={router} />
     </div>
   )
