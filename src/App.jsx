@@ -1,6 +1,5 @@
 import React from 'react'
-import {createBrowserRouter, createRoutesFromElements, Route, Link, Outlet, RouterProvider} from 'react-router-dom'
-import Home from './pages/Home'
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
 import Tracking from './pages/Tracking'
 import Tables from './pages/Tables'
@@ -18,19 +17,19 @@ export default function App() {
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "/pages/dashboard",
+          path: "dashboard",
           element: <Dashboard />,
         },
         {
-          path: "/pages/tracking",
+          path: "tracking",
           element: <Tracking />,
         },
         {
-          path: "/pages/tables",
+          path: "tables",
           element: <Tables />,
         },
         {
-          path: "/pages/docs",
+          path: "docs",
           element: <Docs />,
         },
       ]
