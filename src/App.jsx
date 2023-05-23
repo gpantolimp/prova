@@ -5,7 +5,6 @@ import Tracking from './pages/Tracking'
 import Tables from './pages/Tables'
 import Docs from './pages/Docs'
 import Root from './pages/Root'
-import ErrorPage from './pages/ErrorPage'
 
 
 export default function App() {
@@ -17,7 +16,7 @@ export default function App() {
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "dashboard",
+          path: "main_page",
           element: <Dashboard />,
         },
         {
@@ -37,7 +36,7 @@ export default function App() {
   ]);
     
   return (
-    <div className="min-h-screen flex flex-col from-zinc-50 to-zinc-100 bg-edg-simbolo bg-no-repeat bg-center">
+    <div className="min-h-screen flex flex-col from-zinc-50 to-zinc-100 nuova-classe-da-main">
       <RouterProvider router={router} />
     </div>
   )
