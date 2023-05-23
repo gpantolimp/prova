@@ -6,7 +6,7 @@ export default function Root() {
     return (
       <>
         <Header/>
-        <Content/>
+        <Content/> <Content/>
         <Footer/>
       </>
     );
