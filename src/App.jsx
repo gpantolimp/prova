@@ -32,12 +32,16 @@ export default function App() {
           path: "docs",
           element: <Docs />,
         },
+		{
+          path: "trackingnew",
+          element: <Tracking />,
+        },
       ]
     },          
   ]);
     
   return (
-    <div className="min-h-screen flex flex-col from-zinc-50 to-zinc-100 bg-edg-simbolo bg-no-repeat bg-center">
+    <div className="min-h-screen flex flex-col from-zinc-50 to-zinc-100 classe-da-app">
       <RouterProvider router={router} />
     </div>
   )
